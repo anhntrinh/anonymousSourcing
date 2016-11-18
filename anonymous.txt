@@ -1,0 +1,1112 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - not to be named",
+    "totalResults": "51",
+    "searchTerms": "not to be named",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "015517377416211146520:1odkwbmhzxe",
+    "siteSearch": "http://www.nytimes.com/",
+    "exactTerms": "not to be named",
+    "dateRestrict": "m10"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - not to be named",
+    "totalResults": "51",
+    "searchTerms": "not to be named",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "015517377416211146520:1odkwbmhzxe",
+    "siteSearch": "http://www.nytimes.com/",
+    "exactTerms": "not to be named",
+    "dateRestrict": "m10"
+   }
+  ]
+ },
+ "context": {
+  "title": "Nytimes"
+ },
+ "searchInformation": {
+  "searchTime": 0.397335,
+  "formattedSearchTime": "0.40",
+  "totalResults": "51",
+  "formattedTotalResults": "51"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Why Samsung Abandoned Its Galaxy Note 7 Flagship Phone - The ...",
+   "htmlTitle": "Why Samsung Abandoned Its Galaxy Note 7 Flagship Phone - The ...",
+   "link": "http://www.nytimes.com/2016/10/12/business/international/samsung-galaxy-note7-terminated.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "Scotching the Note 7 does not end the questions facing Samsung. .... Two former \nSamsung employees, who asked not to be named for fear of retaliation from the ...",
+   "htmlSnippet": "Scotching the Note 7 does \u003cb\u003enot\u003c/b\u003e end the questions facing Samsung. .... Two former \u003cbr\u003e\nSamsung employees, who asked \u003cb\u003enot to be named\u003c/b\u003e for fear of retaliation from the&nbsp;...",
+   "formattedUrl": "www.nytimes.com/2016/10/12/.../samsung-galaxy-note7-terminated.html",
+   "htmlFormattedUrl": "www.nytimes.com/2016/10/12/.../samsung-galaxy-\u003cb\u003enot\u003c/b\u003ee7-terminated.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "257",
+      "height": "196",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQGMwmYMGWAOLBKDwAoArOlz-IpXN54SyWp7bPGnibLtRVE077ouNWAq4yN"
+     }
+    ],
+    "person": [
+     {
+      "name": "BRIAN X. CHEN"
+     },
+     {
+      "name": "CHOE SANG-HUN"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004702287",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004702287",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/10/12/business/international/samsung-galaxy-note7-terminated.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/10/12/business/international/samsung-galaxy-note7-terminated.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "Samsung Junks Popular Phone Plagued by Fire",
+      "genre": "News",
+      "articleid": "100000004702287",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "Why Samsung Abandoned Its Galaxy Note 7 Flagship Phone",
+      "pdate": "20161011",
+      "utime": "20161012191502",
+      "ptime": "20161011055453",
+      "displaydate": "Oct. 11, 2016",
+      "dat": "Oct. 11, 2016",
+      "lp": "The unprecedented move by the South Korean electronics giant is an embarrassing reversal for a respected global brand.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "12samsung",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/business/international/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/business/international/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/10/12/business/international/samsung-galaxy-note7-terminated.html",
+      "og:type": "article",
+      "og:title": "Why Samsung Abandoned Its Galaxy Note 7 Flagship Phone",
+      "og:description": "The unprecedented move by the South Korean electronics giant is an embarrassing reversal for a respected global brand.",
+      "article:published": "2016-10-11T05:54:53-04:00",
+      "article:modified": "2016-10-12T19:15:02-04:00",
+      "article:section": "International Business",
+      "article:section-taxonomy-id": "104D1E63-9701-497B-8CF4-A4D120C9014E",
+      "article:section_url": "http://www.nytimes.com/pages/business/index.html",
+      "article:top-level-section": "business",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/10/12/business/international/samsung-galaxy-note7-terminated.html",
+      "twitter:title": "Why Samsung Abandoned Its Galaxy Note 7 Flagship Phone",
+      "twitter:description": "The unprecedented move by the South Korean electronics giant is an embarrassing reversal for a respected global brand.",
+      "author": "Brian X. Chen and Choe Sang-Hun",
+      "tone": "news",
+      "byl": "By BRIAN X. CHEN and CHOE SANG-HUN",
+      "pt": "article",
+      "cg": "business"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/newsgraphics/2016/10/11/samsung-stock-revenue/87bef72824b7cc4b8adbdde1367d727a95b1e73f/samsung-stock-revenue-600.png"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "Samsung Junks Popular Phone Plagued by Fire",
+      "description": "The unprecedented move by the South Korean electronics giant is an embarrassing reversal for a respected global brand.",
+      "genre": "News",
+      "identifier": "100000004702287",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-10-11T05:54:53-04:00",
+      "datemodified": "2016-10-12T19:15:02-04:00",
+      "articlesection": "International Business",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/10/12/world/12Samsung-web/12Samsung-web-thumbStandard.jpg",
+      "headline": "Why Samsung Abandoned Its Galaxy Note 7 Flagship Phone",
+      "copyrightholder": "By ELSA BUTLER on Publish Date October 11, 2016.",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Older Entrepreneurs Take On the 'Concrete Ceiling' - The New York ...",
+   "htmlTitle": "Older Entrepreneurs Take On the &#39;Concrete Ceiling&#39; - The New York ...",
+   "link": "http://www.nytimes.com/2016/09/10/your-money/older-entrepreneurs-take-on-the-concrete-ceiling.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "One 68-year-old woman, who asked not to be named for fear of age \ndiscrimination, started a bookkeeping business thanks to the program's \nQuickBooks training ...",
+   "htmlSnippet": "One 68-year-old woman, who asked \u003cb\u003enot to be named\u003c/b\u003e for fear of age \u003cbr\u003e\ndiscrimination, started a bookkeeping business thanks to the program&#39;s \u003cbr\u003e\nQuickBooks training&nbsp;...",
+   "formattedUrl": "www.nytimes.com/.../older-entrepreneurs-take-on-the-concrete-ceiling.html",
+   "htmlFormattedUrl": "www.nytimes.com/.../older-entrepreneurs-take-on-the-concrete-ceiling.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "254",
+      "height": "198",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKJa2BOY-vJQsIwB2Sc8_OZdNn2h_KVSU6CgoyWRTa9_OgVrdjOZFemh0"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/09/09/business/10RETIRING-1/10RETIRING-1-master768.jpg",
+      "height": "598",
+      "width": "768",
+      "caption": "Originally a novelist, Avery Chenoweth had a major heart attack that left him too fatigued to write. He had to look elsewhere to pay the bills. Credit Khue Bui for The New York Times",
+      "description": "Originally a novelist, Avery Chenoweth had a major heart attack that left him too fatigued to write. He had to look elsewhere to pay the bills. Credit Khue Bui for The New York Times",
+      "copyrightholder": "Credit Khue Bui for The New York Times"
+     },
+     {
+      "url": "https://static01.nyt.com/images/2016/09/09/business/10RETIRING-2/10RETIRING-2-master675.jpg",
+      "height": "507",
+      "width": "675",
+      "caption": "Avery Chenoweth, left, with Dominic Sinibaldi, chief of HeresMyStory.com. Mr. Chenoweth started Here’s My Story, whose gaming app brings history alive through location-based role-playing....",
+      "description": "Avery Chenoweth, left, with Dominic Sinibaldi, chief of HeresMyStory.com. Mr. Chenoweth started Here’s My Story, whose gaming app brings history alive through location-based role-playing....",
+      "copyrightholder": "Credit Khue Bui for The New York Times"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004618324",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004618324",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/09/10/your-money/older-entrepreneurs-take-on-the-concrete-ceiling.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/09/10/your-money/older-entrepreneurs-take-on-the-concrete-ceiling.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "Helping Older Entrepreneurs Navigate in Unfamiliar Territory",
+      "genre": "News",
+      "articleid": "100000004618324",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "Older Entrepreneurs Take On the ‘Concrete Ceiling’",
+      "col": "Retiring",
+      "pdate": "20160909",
+      "utime": "20160909232204",
+      "ptime": "20160909113630",
+      "displaydate": "Sept. 9, 2016",
+      "dat": "Sept. 9, 2016",
+      "lp": "Despite the challenges, older people are creating their own ventures, with some getting help from government as well as AARP and other private groups.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "10retiring",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/your-money/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/your-money/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/09/10/your-money/older-entrepreneurs-take-on-the-concrete-ceiling.html",
+      "og:type": "article",
+      "og:title": "Older Entrepreneurs Take On the ‘Concrete Ceiling’",
+      "og:description": "Despite the challenges, older people are creating their own ventures, with some getting help from government as well as AARP and other private groups.",
+      "article:published": "2016-09-09T11:36:30-04:00",
+      "article:modified": "2016-09-09T23:22:04-04:00",
+      "article:section": "Your Money",
+      "article:section-taxonomy-id": "ED7B8594-44CE-4D37-A58B-1CDAA19774E4",
+      "article:section_url": "http://www.nytimes.com/pages/your-money/index.html",
+      "article:top-level-section": "your-money",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/09/10/your-money/older-entrepreneurs-take-on-the-concrete-ceiling.html",
+      "twitter:title": "Older Entrepreneurs Take On the ‘Concrete Ceiling’",
+      "twitter:description": "Despite the challenges, older people are creating their own ventures, with some getting help from government as well as AARP and other private groups.",
+      "author": "Elizabeth Walsh",
+      "tone": "news",
+      "byl": "By ELIZABETH WALSH",
+      "pt": "article"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/09/09/business/10RETIRING-1/10RETIRING-1-master768.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "Helping Older Entrepreneurs Navigate in Unfamiliar Territory",
+      "description": "Despite the challenges, older people are creating their own ventures, with some getting help from government as well as AARP and other private groups.",
+      "genre": "News",
+      "identifier": "100000004618324",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-09-09T11:36:30-04:00",
+      "datemodified": "2016-09-09T23:22:04-04:00",
+      "articlesection": "Your Money",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/09/09/business/10RETIRING-1/10RETIRING-1-thumbStandard.jpg",
+      "headline": "Older Entrepreneurs Take On the ‘Concrete Ceiling’",
+      "name": "ELIZABETH WALSH",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "video Hampton Creek, Maker of Just Mayo, Is Said to Be Under Inquiry",
+   "htmlTitle": "video Hampton Creek, Maker of Just Mayo, Is Said to Be Under Inquiry",
+   "link": "http://www.nytimes.com/2016/08/20/business/hampton-creek-investigation-just-mayo.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "... situation who asked not to be named because it had not been announced \npublicly. ... The vegetable oil used in Just Mayo, for example, does not come from\n ...",
+   "htmlSnippet": "... situation who asked \u003cb\u003enot to be named\u003c/b\u003e because it had \u003cb\u003enot\u003c/b\u003e been announced \u003cbr\u003e\npublicly. ... The vegetable oil used in Just Mayo, for example, does \u003cb\u003enot\u003c/b\u003e come from\u003cbr\u003e\n&nbsp;...",
+   "formattedUrl": "www.nytimes.com/2016/08/.../hampton-creek-investigation-just-mayo.html",
+   "htmlFormattedUrl": "www.nytimes.com/2016/08/.../hampton-creek-investigation-just-mayo.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "238",
+      "height": "212",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtpkOfyYQWHN5Q4VrZBCWdDKlgkmHnsXkSEghZLputjXwEgFLMIOqj7nY"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/08/20/business/20HAMPTON-2/20HAMPTON-2-master675.jpg",
+      "height": "602",
+      "width": "675",
+      "caption": "Just Mayo products use a plant-based ingredient instead of eggs. Joshua Tetrick, the company’s chief executive, said Just Mayo planned to break even by the end of next year.",
+      "description": "Just Mayo products use a plant-based ingredient instead of eggs. Joshua Tetrick, the company’s chief executive, said Just Mayo planned to break even by the end of next year."
+     }
+    ],
+    "person": [
+     {
+      "name": "NICK WINGFIELD"
+     },
+     {
+      "name": "KATIE BENNER"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004576374",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004576374",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/08/20/business/hampton-creek-investigation-just-mayo.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/08/20/business/hampton-creek-investigation-just-mayo.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "S.E.C. Said to Scrutinize the Maker of Just Mayo",
+      "genre": "News",
+      "articleid": "100000004576374",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "Hampton Creek, Maker of Just Mayo, Is Said to Be Under Inquiry",
+      "pdate": "20160819",
+      "utime": "20160830122205",
+      "ptime": "20160819211142",
+      "displaydate": "Aug. 19, 2016",
+      "dat": "Aug. 19, 2016",
+      "lp": "The report of an S.E.C. inquiry follows a Bloomberg article describing an effort by Hampton Creek to buy large quantities of its egg-free mayonnaise.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "20hampton",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/business/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/business/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/08/20/business/hampton-creek-investigation-just-mayo.html",
+      "og:type": "article",
+      "og:title": "Hampton Creek, Maker of Just Mayo, Is Said to Be Under Inquiry",
+      "og:description": "The report of an S.E.C. inquiry follows a Bloomberg article describing an effort by Hampton Creek to buy large quantities of its egg-free mayonnaise.",
+      "article:published": "2016-08-19T21:11:42-04:00",
+      "article:modified": "2016-08-30T12:22:05-04:00",
+      "article:section": "Business Day",
+      "article:section-taxonomy-id": "104D1E63-9701-497B-8CF4-A4D120C9014E",
+      "article:section_url": "http://www.nytimes.com/pages/business/index.html",
+      "article:top-level-section": "business",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/08/20/business/hampton-creek-investigation-just-mayo.html",
+      "twitter:title": "Hampton Creek, Maker of Just Mayo, Is Said to Be Under Inquiry",
+      "twitter:description": "The report of an S.E.C. inquiry follows a Bloomberg article describing an effort by Hampton Creek to buy large quantities of its egg-free mayonnaise.",
+      "author": "Nick Wingfield and Katie Benner",
+      "tone": "news",
+      "byl": "By NICK WINGFIELD and KATIE BENNER",
+      "pt": "article",
+      "cg": "business"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/08/20/business/20HAMPTON-2/20HAMPTON-2-master675.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "S.E.C. Said to Scrutinize the Maker of Just Mayo",
+      "description": "The report of an S.E.C. inquiry follows a Bloomberg article describing an effort by Hampton Creek to buy large quantities of its egg-free mayonnaise.",
+      "genre": "News",
+      "identifier": "100000004576374",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-08-19T21:11:42-04:00",
+      "datemodified": "2016-08-30T12:22:05-04:00",
+      "articlesection": "Business Day",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/08/05/business/cnbc-mayo/cnbc-mayo-thumbStandard.png",
+      "headline": "Hampton Creek, Maker of Just Mayo, Is Said to Be Under Inquiry",
+      "copyrightholder": "By CNBC on Publish Date August 5, 2016.",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "AT&T Aims for an Empire in Merger Talks With Time Warner - The ...",
+   "htmlTitle": "AT&amp;T Aims for an Empire in Merger Talks With Time Warner - The ...",
+   "link": "http://www.nytimes.com/2016/10/22/business/dealbook/att-is-said-to-be-in-advanced-merger-talks-with-time-warner.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "Time Warner is asking AT&T to pay more than $90 a share in the deal, said the \npeople who asked not to be named because the details are still private.",
+   "htmlSnippet": "Time Warner is asking AT&amp;T to pay more than $90 a share in the deal, said the \u003cbr\u003e\npeople who asked \u003cb\u003enot to be named\u003c/b\u003e because the details are still private.",
+   "formattedUrl": "www.nytimes.com/.../att-is-said-to-be-in-advanced-merger-talks-with-time- warner.html",
+   "htmlFormattedUrl": "www.nytimes.com/.../att-is-said-to-be-in-advanced-merger-talks-with-time- warner.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Right-Wing Attack on India's Universities - The New York Times",
+   "htmlTitle": "The Right-Wing Attack on India&#39;s Universities - The New York Times",
+   "link": "http://www.nytimes.com/2016/01/28/opinion/the-right-wing-attack-on-indias-universities.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "One B.H.U. professor, who wished not to be named, described Mr. Tripathi as “an \nacademic thug with no qualifications.” (He was previously a professor of ...",
+   "htmlSnippet": "One B.H.U. professor, who wished \u003cb\u003enot to be named\u003c/b\u003e, described Mr. Tripathi as “an \u003cbr\u003e\nacademic thug with no qualifications.” (He was previously a professor of&nbsp;...",
+   "formattedUrl": "www.nytimes.com/2016/.../the-right-wing-attack-on-indias-universities.html",
+   "htmlFormattedUrl": "www.nytimes.com/2016/.../the-right-wing-attack-on-indias-universities.html",
+   "pagemap": {
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004168330",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004168330",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/01/28/opinion/the-right-wing-attack-on-indias-universities.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/01/28/opinion/the-right-wing-attack-on-indias-universities.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "The Right-Wing Attack on India’s Universities",
+      "genre": "Op-Ed",
+      "articleid": "100000004168330",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "The Right-Wing Attack on India’s Universities",
+      "col": "Contributing Op-Ed Writer",
+      "pdate": "20160127",
+      "utime": "20160128004109",
+      "ptime": "20160127073024",
+      "displaydate": "Jan. 27, 2016",
+      "dat": "Jan. 27, 2016",
+      "lp": "The R.S.S., a Hindu nationalist organization, is making a play for control of Indian intellectual life.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "28Taseer-INYT",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/opinion/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/opinion/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/01/28/opinion/the-right-wing-attack-on-indias-universities.html",
+      "og:type": "article",
+      "og:title": "The Right-Wing Attack on India’s Universities",
+      "og:description": "The R.S.S., a Hindu nationalist organization, is making a play for control of Indian intellectual life.",
+      "article:published": "2016-01-27T07:30:24-05:00",
+      "article:modified": "2016-01-28T00:41:09-05:00",
+      "article:section": "Opinion",
+      "article:section-taxonomy-id": "AD8090D7-4137-4D71-84C8-70DA3BD89778",
+      "article:section_url": "http://www.nytimes.com/pages/opinion/index.html",
+      "article:top-level-section": "opinion",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/01/28/opinion/the-right-wing-attack-on-indias-universities.html",
+      "twitter:title": "The Right-Wing Attack on India’s Universities",
+      "twitter:description": "The R.S.S., a Hindu nationalist organization, is making a play for control of Indian intellectual life.",
+      "author": "Aatish Taseer",
+      "tone": "opinion",
+      "byl": "By AATISH TASEER",
+      "pt": "article"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "The Right-Wing Attack on India’s Universities",
+      "description": "The R.S.S., a Hindu nationalist organization, is making a play for control of Indian intellectual life.",
+      "genre": "Op-Ed",
+      "identifier": "100000004168330",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-01-27T07:30:24-05:00",
+      "datemodified": "2016-01-28T00:41:09-05:00",
+      "articlesection": "Opinion",
+      "headline": "The Right-Wing Attack on India’s Universities",
+      "name": "AATISH TASEER",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Jose Cuervo Said to Be Making Arrangements for an I.P.O. - The ...",
+   "htmlTitle": "Jose Cuervo Said to Be Making Arrangements for an I.P.O. - The ...",
+   "link": "http://www.nytimes.com/2016/04/16/business/dealbook/jose-cuervo-said-to-be-making-arrangements-for-an-ipo.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "The family-owned Mexican company is working with JPMorgan Chase and \nMorgan Stanley to prepare for the deal, said the people, who asked not to be \nnamed ...",
+   "htmlSnippet": "The family-owned Mexican company is working with JPMorgan Chase and \u003cbr\u003e\nMorgan Stanley to prepare for the deal, said the people, who asked \u003cb\u003enot to be\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003enamed\u003c/b\u003e&nbsp;...",
+   "formattedUrl": "www.nytimes.com/.../jose-cuervo-said-to-be-making-arrangements-for-an- ipo.html",
+   "htmlFormattedUrl": "www.nytimes.com/.../jose-cuervo-said-to-be-making-arrangements-for-an- ipo.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSDQvZqVPh8CSgzAgW5S_J9uXPnLf8TetPo7Fo7K1H5egAQfDF1s3zmD4"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/04/16/business/db-tequila1/db-tequila1-master768.jpg",
+      "height": "512",
+      "width": "768",
+      "caption": "Jose Cuervo, a family-owned Mexican company, is working with JPMorgan Chase and Morgan Stanley to prepare for an initial public offering of stock. Credit Edgard Garrido/Reuters",
+      "description": "Jose Cuervo, a family-owned Mexican company, is working with JPMorgan Chase and Morgan Stanley to prepare for an initial public offering of stock. Credit Edgard Garrido/Reuters",
+      "copyrightholder": "Credit Edgard Garrido/Reuters"
+     }
+    ],
+    "person": [
+     {
+      "name": "LESLIE PICKER"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004329764",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004329764",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/04/16/business/dealbook/jose-cuervo-said-to-be-making-arrangements-for-an-ipo.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/04/16/business/dealbook/jose-cuervo-said-to-be-making-arrangements-for-an-ipo.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "Jose Cuervo  Said Ready  to Go Public",
+      "genre": "News",
+      "articleid": "100000004329764",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "Jose Cuervo Said to Be Making Arrangements for an I.P.O.",
+      "pdate": "20160415",
+      "utime": "20160902020007",
+      "ptime": "20160415152226",
+      "displaydate": "April 15, 2016",
+      "dat": "April 15, 2016",
+      "lp": "The family-owned Mexican company is working with JPMorgan Chase and Morgan Stanley to prepare for the deal, according to people with knowledge of the matter.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "16db-tequila",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/business/dealbook/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/business/dealbook/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/04/16/business/dealbook/jose-cuervo-said-to-be-making-arrangements-for-an-ipo.html",
+      "og:type": "article",
+      "og:title": "Jose Cuervo Said to Be Making Arrangements for an I.P.O.",
+      "og:description": "The family-owned Mexican company is working with JPMorgan Chase and Morgan Stanley to prepare for the deal, according to people with knowledge of the matter.",
+      "article:published": "2016-04-15T15:22:26-04:00",
+      "article:modified": "2016-09-02T02:00:07-04:00",
+      "article:section": "DealBook",
+      "article:section-taxonomy-id": "104D1E63-9701-497B-8CF4-A4D120C9014E",
+      "article:section_url": "http://www.nytimes.com/pages/business/index.html",
+      "article:top-level-section": "business",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/04/16/business/dealbook/jose-cuervo-said-to-be-making-arrangements-for-an-ipo.html",
+      "twitter:title": "Jose Cuervo Said to Be Making Arrangements for an I.P.O.",
+      "twitter:description": "The family-owned Mexican company is working with JPMorgan Chase and Morgan Stanley to prepare for the deal, according to people with knowledge of the matter.",
+      "author": "Leslie Picker",
+      "tone": "news",
+      "byl": "By LESLIE PICKER",
+      "pt": "article",
+      "cg": "business"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/04/16/business/db-tequila1/db-tequila1-master768.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "Jose Cuervo Said Ready to Go Public",
+      "description": "The family-owned Mexican company is working with JPMorgan Chase and Morgan Stanley to prepare for the deal, according to people with knowledge of the matter.",
+      "genre": "News",
+      "identifier": "100000004329764",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-04-15T15:22:26-04:00",
+      "datemodified": "2016-09-02T02:00:07-04:00",
+      "articlesection": "DealBook",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/04/16/business/db-tequila1/db-tequila1-thumbStandard.jpg",
+      "headline": "Jose Cuervo Said to Be Making Arrangements for an I.P.O.",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "N.S.A. Suspect Is a Hoarder. But a Leaker? Investigators Aren't Sure ...",
+   "htmlTitle": "N.S.A. Suspect Is a Hoarder. But a Leaker? Investigators Aren&#39;t Sure ...",
+   "link": "http://www.nytimes.com/2016/10/07/us/politics/nsa-suspect-is-a-hoarder-but-a-leaker-investigators-arent-sure.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "But, officials say, they have not been able to definitively connect Mr. Martin, 51, ... \nof lunchboxes,” said an administration official, who also asked not to be named.",
+   "htmlSnippet": "But, officials say, they have \u003cb\u003enot\u003c/b\u003e been able to definitively connect Mr. Martin, 51, ... \u003cbr\u003e\nof lunchboxes,” said an administration official, who also asked \u003cb\u003enot to be named\u003c/b\u003e.",
+   "formattedUrl": "www.nytimes.com/.../nsa-suspect-is-a-hoarder-but-a-leaker-investigators- arent-sure.html",
+   "htmlFormattedUrl": "www.nytimes.com/.../nsa-suspect-is-a-hoarder-but-a-leaker-investigators- arent-sure.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORyJvPdMGBSFUCeNJDxm9Q_XliG0yhUxVqXWNOxtAisbqQt-bsKZ5hpw"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/10/07/us/07nsa/07nsa-master768.jpg",
+      "height": "512",
+      "width": "768",
+      "caption": "Harold T. Martin III’s house in Glen Burnie, Md., where he was arrested in August. Mr. Martin, a Navy veteran and former National Security Agency contractor, is suspected of leaking top-secret...",
+      "description": "Harold T. Martin III’s house in Glen Burnie, Md., where he was arrested in August. Mr. Martin, a Navy veteran and former National Security Agency contractor, is suspected of leaking top-secret...",
+      "copyrightholder": "Credit Nate Pesce for The New York Times"
+     }
+    ],
+    "person": [
+     {
+      "name": "SCOTT SHANE"
+     },
+     {
+      "name": "DAVID E. SANGER"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004695427",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004695427",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/10/07/us/politics/nsa-suspect-is-a-hoarder-but-a-leaker-investigators-arent-sure.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/10/07/us/politics/nsa-suspect-is-a-hoarder-but-a-leaker-investigators-arent-sure.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "Hoarder, Yes, but a Leaker? U.S. Isn’t Sure",
+      "genre": "News",
+      "articleid": "100000004695427",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "N.S.A. Suspect Is a Hoarder. But a Leaker? Investigators Aren’t Sure.",
+      "pdate": "20161006",
+      "utime": "20161009190113",
+      "ptime": "20161006210240",
+      "displaydate": "Oct. 6, 2016",
+      "dat": "Oct. 6, 2016",
+      "lp": "Harold T. Martin III, described by his ex-wife as a hoarder, broke rules by taking home top-secret material, officials said, but they struggled to connect him to leaked documents.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "07nsa",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/politics/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/politics/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/10/07/us/politics/nsa-suspect-is-a-hoarder-but-a-leaker-investigators-arent-sure.html",
+      "og:type": "article",
+      "og:title": "N.S.A. Suspect Is a Hoarder. But a Leaker? Investigators Aren’t Sure.",
+      "og:description": "Harold T. Martin III, described by his ex-wife as a hoarder, broke rules by taking home top-secret material, officials said, but they struggled to connect him to leaked documents.",
+      "article:published": "2016-10-06T21:02:40-04:00",
+      "article:modified": "2016-10-09T19:01:13-04:00",
+      "article:section": "Politics",
+      "article:section-taxonomy-id": "23FD6C8B-62D5-4CEA-A331-6C2A9A1223BE",
+      "article:section_url": "http://www.nytimes.com/section/us",
+      "article:top-level-section": "us",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/10/07/us/politics/nsa-suspect-is-a-hoarder-but-a-leaker-investigators-arent-sure.html",
+      "twitter:title": "N.S.A. Suspect Is a Hoarder. But a Leaker? Investigators Aren’t Sure.",
+      "twitter:description": "Harold T. Martin III, described by his ex-wife as a hoarder, broke rules by taking home top-secret material, officials said, but they struggled to connect him to leaked documents.",
+      "author": "Scott Shane and David E. Sanger",
+      "tone": "news",
+      "byl": "By SCOTT SHANE and DAVID E. SANGER",
+      "pt": "article",
+      "cg": "us"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/10/07/us/07nsa/07nsa-master768.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "Hoarder, Yes, but a Leaker? U.S. Isn’t Sure",
+      "description": "Harold T. Martin III, described by his ex-wife as a hoarder, broke rules by taking home top-secret material, officials said, but they struggled to connect him to leaked documents.",
+      "genre": "News",
+      "identifier": "100000004695427",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-10-06T21:02:40-04:00",
+      "datemodified": "2016-10-09T19:01:13-04:00",
+      "articlesection": "Politics",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/10/07/us/07nsa/07nsa-thumbStandard.jpg",
+      "headline": "N.S.A. Suspect Is a Hoarder. But a Leaker? Investigators Aren’t Sure.",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Turkey's Push to Join Battle for Mosul Inflames Tension With Iraq ...",
+   "htmlTitle": "Turkey&#39;s Push to Join Battle for Mosul Inflames Tension With Iraq ...",
+   "link": "http://www.nytimes.com/2016/10/24/world/middleeast/turkeys-push-to-join-battle-for-mosul-inflames-tension-with-iraq.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "According to a State Department official, who asked not to be named because he \nwas discussing sensitive deliberations, Turkey has about 600 to 800 troops at ...",
+   "htmlSnippet": "According to a State Department official, who asked \u003cb\u003enot to be named\u003c/b\u003e because he \u003cbr\u003e\nwas discussing sensitive deliberations, Turkey has about 600 to 800 troops at&nbsp;...",
+   "formattedUrl": "www.nytimes.com/.../turkeys-push-to-join-battle-for-mosul-inflames-tension- with-iraq.html",
+   "htmlFormattedUrl": "www.nytimes.com/.../turkeys-push-to-join-battle-for-mosul-inflames-tension- with-iraq.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "273",
+      "height": "184",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQNOJHSCFi6KWR8Cj-KBbSTwl2UgdjiZ_jsmblLL8ZTl-MlOQFOVosgIBU"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/10/24/world/24TURKEY1/24TURKEY1-master768.jpg",
+      "height": "518",
+      "width": "768",
+      "caption": "President Recep Tayyip Erdogan of Turkey in Ankara last week. Turkey has about 600 to 800 troops at Bashiqa, near Mosul, a deployment that Iraq says it never approved. Credit Pool photo by...",
+      "description": "President Recep Tayyip Erdogan of Turkey in Ankara last week. Turkey has about 600 to 800 troops at Bashiqa, near Mosul, a deployment that Iraq says it never approved. Credit Pool photo by...",
+      "copyrightholder": "Credit Pool photo by Murat Cetinmuhurdar"
+     },
+     {
+      "url": "https://static01.nyt.com/images/2016/10/24/world/24TURKEY2/24TURKEY2-master675.jpg",
+      "height": "453",
+      "width": "675",
+      "caption": "Supporters of Moktada al-Sadr, an Iraqi Shiite cleric, gathered for a protest last week in front of the Turkish Embassy in Baghdad. Credit Wissm Al-Okili/Reuters",
+      "description": "Supporters of Moktada al-Sadr, an Iraqi Shiite cleric, gathered for a protest last week in front of the Turkish Embassy in Baghdad. Credit Wissm Al-Okili/Reuters",
+      "copyrightholder": "Credit Wissm Al-Okili/Reuters"
+     }
+    ],
+    "person": [
+     {
+      "name": "TIM ARANGO"
+     },
+     {
+      "name": "MICHAEL R. GORDON"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004725140",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004725140",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/10/24/world/middleeast/turkeys-push-to-join-battle-for-mosul-inflames-tension-with-iraq.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/10/24/world/middleeast/turkeys-push-to-join-battle-for-mosul-inflames-tension-with-iraq.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "Turkey Treads on Iraq’s Toes in Tussle Over Role at Mosul",
+      "genre": "News",
+      "articleid": "100000004725140",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "Turkey’s Push to Join Battle for Mosul Inflames Tension With Iraq",
+      "pdate": "20161023",
+      "utime": "20161024130219",
+      "ptime": "20161023183901",
+      "displaydate": "Oct. 23, 2016",
+      "dat": "Oct. 23, 2016",
+      "lp": "President Recep Tayyip Erdogan’s insistence on a direct role, citing a “historical responsibility” that Iraq rejects, is undermining American goals in the region.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "24turkey",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/world/middleeast/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/world/middleeast/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/10/24/world/middleeast/turkeys-push-to-join-battle-for-mosul-inflames-tension-with-iraq.html",
+      "og:type": "article",
+      "og:title": "Turkey’s Push to Join Battle for Mosul Inflames Tension With Iraq",
+      "og:description": "President Recep Tayyip Erdogan’s insistence on a direct role, citing a “historical responsibility” that Iraq rejects, is undermining American goals in the region.",
+      "article:published": "2016-10-23T18:39:01-04:00",
+      "article:modified": "2016-10-24T13:02:19-04:00",
+      "article:section": "Middle East",
+      "article:section-taxonomy-id": "9A43D8FC-F4CF-44D9-9B34-138D30468F8F",
+      "article:section_url": "http://www.nytimes.com/pages/world/index.html",
+      "article:top-level-section": "world",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/10/24/world/middleeast/turkeys-push-to-join-battle-for-mosul-inflames-tension-with-iraq.html",
+      "twitter:title": "Turkey’s Push to Join Battle for Mosul Inflames Tension With Iraq",
+      "twitter:description": "President Recep Tayyip Erdogan’s insistence on a direct role, citing a “historical responsibility” that Iraq rejects, is undermining American goals in the region.",
+      "author": "Tim Arango and Michael R. Gordon",
+      "tone": "news",
+      "byl": "By TIM ARANGO and MICHAEL R. GORDON",
+      "pt": "article",
+      "cg": "world"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/10/24/world/24TURKEY1/24TURKEY1-master768.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "Turkey Treads on Iraq’s Toes in Tussle Over Role at Mosul",
+      "description": "President Recep Tayyip Erdogan’s insistence on a direct role, citing a “historical responsibility” that Iraq rejects, is undermining American goals in the region.",
+      "genre": "News",
+      "identifier": "100000004725140",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-10-23T18:39:01-04:00",
+      "datemodified": "2016-10-24T13:02:19-04:00",
+      "articlesection": "Middle East",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/10/24/world/24TURKEY1/24TURKEY1-thumbStandard.jpg",
+      "headline": "Turkey’s Push to Join Battle for Mosul Inflames Tension With Iraq",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "After Losses in Syria and Iraq, ISIS Moves the Goal Posts - The New ...",
+   "htmlTitle": "After Losses in Syria and Iraq, ISIS Moves the Goal Posts - The New ...",
+   "link": "http://www.nytimes.com/2016/10/19/world/middleeast/islamic-state-syria-iraq.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "... have fled to the group's de facto capital, the northern Syrian city of Raqqa, in \nrecent days, according to several residents of that city who asked not to be \nnamed ...",
+   "htmlSnippet": "... have fled to the group&#39;s de facto capital, the northern Syrian city of Raqqa, in \u003cbr\u003e\nrecent days, according to several residents of that city who asked \u003cb\u003enot to be\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003enamed\u003c/b\u003e&nbsp;...",
+   "formattedUrl": "www.nytimes.com/2016/10/19/world/.../islamic-state-syria-iraq.html",
+   "htmlFormattedUrl": "www.nytimes.com/2016/10/19/world/.../islamic-state-syria-iraq.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQP8U8e-mAyfuJDLSks93XhB8feB2bOByRBT5-QN50-LkfdOlJevoAGdyE"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/10/18/world/middleeast/18syria-web/18syria-web-master768.jpg",
+      "height": "512",
+      "width": "768",
+      "caption": "Rebel fighters battling the Islamic State entered Dabiq, Syria, on Sunday. Credit Khalil Ashawi/Reuters",
+      "description": "Rebel fighters battling the Islamic State entered Dabiq, Syria, on Sunday. Credit Khalil Ashawi/Reuters",
+      "copyrightholder": "Credit Khalil Ashawi/Reuters"
+     }
+    ],
+    "person": [
+     {
+      "name": "ANNE BARNARD"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004713540",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004713540",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/10/19/world/middleeast/islamic-state-syria-iraq.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/10/19/world/middleeast/islamic-state-syria-iraq.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "Losing Territory, ISIS Keeps Sights on Longer Fight",
+      "genre": "News",
+      "articleid": "100000004713540",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "After Losses in Syria and Iraq, ISIS Moves the Goal Posts",
+      "pdate": "20161018",
+      "utime": "20161019153226",
+      "ptime": "20161018072132",
+      "displaydate": "Oct. 18, 2016",
+      "dat": "Oct. 18, 2016",
+      "lp": "The group has been laying ideological groundwork to maintain its appeal as it suffers on the battlefield.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "19syria",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/world/middleeast/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/world/middleeast/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/10/19/world/middleeast/islamic-state-syria-iraq.html",
+      "og:type": "article",
+      "og:title": "After Losses in Syria and Iraq, ISIS Moves the Goal Posts",
+      "og:description": "The group has been laying ideological groundwork to maintain its appeal as it suffers on the battlefield.",
+      "article:published": "2016-10-18T07:21:32-04:00",
+      "article:modified": "2016-10-19T15:32:26-04:00",
+      "article:section": "Middle East",
+      "article:section-taxonomy-id": "9A43D8FC-F4CF-44D9-9B34-138D30468F8F",
+      "article:section_url": "http://www.nytimes.com/pages/world/index.html",
+      "article:top-level-section": "world",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/10/19/world/middleeast/islamic-state-syria-iraq.html",
+      "twitter:title": "After Losses in Syria and Iraq, ISIS Moves the Goal Posts",
+      "twitter:description": "The group has been laying ideological groundwork to maintain its appeal as it suffers on the battlefield.",
+      "author": "Anne Barnard",
+      "tone": "news",
+      "byl": "By ANNE BARNARD",
+      "pt": "article",
+      "cg": "world"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/10/18/world/middleeast/18syria-web/18syria-web-master768.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "Losing Territory, ISIS Keeps Sights on Longer Fight",
+      "description": "The group has been laying ideological groundwork to maintain its appeal as it suffers on the battlefield.",
+      "genre": "News",
+      "identifier": "100000004713540",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-10-18T07:21:32-04:00",
+      "datemodified": "2016-10-19T15:32:26-04:00",
+      "articlesection": "Middle East",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/10/18/world/middleeast/18syria-web/18syria-web-thumbStandard.jpg",
+      "headline": "After Losses in Syria and Iraq, ISIS Moves the Goal Posts",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SoftBank Group Nears Deal to Buy ARM Holdings - The New York ...",
+   "htmlTitle": "SoftBank Group Nears Deal to Buy ARM Holdings - The New York ...",
+   "link": "http://www.nytimes.com/2016/07/18/business/dealbook/softbank-group-nears-deal-to-buy-arm-holdings.html",
+   "displayLink": "www.nytimes.com",
+   "snippet": "SoftBank is nearing a deal to acquire ARM Holdings, the British semiconductor \ncompany, said two people briefed on the matter who asked not to be named ...",
+   "htmlSnippet": "SoftBank is nearing a deal to acquire ARM Holdings, the British semiconductor \u003cbr\u003e\ncompany, said two people briefed on the matter who asked \u003cb\u003enot to be named\u003c/b\u003e&nbsp;...",
+   "formattedUrl": "www.nytimes.com/.../softbank-group-nears-deal-to-buy-arm-holdings.html",
+   "htmlFormattedUrl": "www.nytimes.com/.../softbank-group-nears-deal-to-buy-arm-holdings.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBN4laY84FsNGiEAh4sM4xvX0Z6BsWHcTcNZf6lSxUV_wChDS0KL41W1ka"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://static01.nyt.com/images/2016/07/18/business/18db-softbank/18db-softbank-master768.jpg",
+      "height": "512",
+      "width": "768",
+      "caption": "A SoftBank store in Tokyo. The company invests in technology, media and telecommunications companies. Credit Thomas Peter/Reuters",
+      "description": "A SoftBank store in Tokyo. The company invests in technology, media and telecommunications companies. Credit Thomas Peter/Reuters",
+      "copyrightholder": "Credit Thomas Peter/Reuters"
+     }
+    ],
+    "person": [
+     {
+      "name": "LESLIE PICKER"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "sourceapp": "nyt-v5",
+      "applicationname": "article",
+      "al:android:url": "nytimes://reader/id/100000004536049",
+      "al:android:package": "com.nytimes.android",
+      "al:android:app_name": "NYTimes",
+      "twitter:app:name:googleplay": "NYTimes",
+      "twitter:app:id:googleplay": "com.nytimes.android",
+      "twitter:app:url:googleplay": "nytimes://reader/id/100000004536049",
+      "al:iphone:url": "nytimes://www.nytimes.com/2016/07/18/business/dealbook/softbank-group-nears-deal-to-buy-arm-holdings.html",
+      "al:iphone:app_store_id": "284862083",
+      "al:iphone:app_name": "NYTimes",
+      "al:ipad:url": "nytimes://www.nytimes.com/2016/07/18/business/dealbook/softbank-group-nears-deal-to-buy-arm-holdings.html",
+      "al:ipad:app_store_id": "357066198",
+      "al:ipad:app_name": "NYTimes",
+      "hdl_p": "SoftBank Nears Deal for ARM, U.K.’s First Big Transaction Since ‘Brexit’",
+      "genre": "News",
+      "articleid": "100000004536049",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "hdl": "SoftBank Group Nears Deal to Buy ARM Holdings",
+      "pdate": "20160717",
+      "utime": "20160718151005",
+      "ptime": "20160717211346",
+      "displaydate": "July 17, 2016",
+      "dat": "July 17, 2016",
+      "lp": "While the negotiations are not yet final, the purchase of ARM, a British software company, could be the first large-scale transaction since Britain voted to leave the European Union.",
+      "msapplication-starturl": "http://www.nytimes.com",
+      "cre": "The New York Times",
+      "slug": "18db-softbank",
+      "article:collection": "https://static01.nyt.com/services/json/sectionfronts/business/dealbook/index.jsonp",
+      "sectionfront_jsonp": "https://static01.nyt.com/services/json/sectionfronts/business/dealbook/index.jsonp",
+      "og:url": "http://www.nytimes.com/2016/07/18/business/dealbook/softbank-group-nears-deal-to-buy-arm-holdings.html",
+      "og:type": "article",
+      "og:title": "SoftBank Group Nears Deal to Buy ARM Holdings",
+      "og:description": "While the negotiations are not yet final, the purchase of ARM, a British software company, could be the first large-scale transaction since Britain voted to leave the European Union.",
+      "article:published": "2016-07-17T21:13:46-04:00",
+      "article:modified": "2016-07-18T15:10:05-04:00",
+      "article:section": "DealBook",
+      "article:section-taxonomy-id": "104D1E63-9701-497B-8CF4-A4D120C9014E",
+      "article:section_url": "http://www.nytimes.com/pages/business/index.html",
+      "article:top-level-section": "business",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2016/07/18/business/dealbook/softbank-group-nears-deal-to-buy-arm-holdings.html",
+      "twitter:title": "SoftBank Group Nears Deal to Buy ARM Holdings",
+      "twitter:description": "While the negotiations are not yet final, the purchase of ARM, a British software company, could be the first large-scale transaction since Britain voted to leave the European Union.",
+      "author": "Leslie Picker",
+      "tone": "news",
+      "byl": "By LESLIE PICKER",
+      "pt": "article",
+      "cg": "business"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static01.nyt.com/images/2016/07/18/business/18db-softbank/18db-softbank-master768.jpg"
+     }
+    ],
+    "newsarticle": [
+     {
+      "alternativeheadline": "SoftBank Nears Deal for ARM, U.K.’s First Big Transaction Since ‘Brexit’",
+      "description": "While the negotiations are not yet final, the purchase of ARM, a British software company, could be the first large-scale transaction since Britain voted to leave the European Union.",
+      "genre": "News",
+      "identifier": "100000004536049",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "inlanguage": "en-US",
+      "datepublished": "2016-07-17T21:13:46-04:00",
+      "datemodified": "2016-07-18T15:10:05-04:00",
+      "articlesection": "DealBook",
+      "thumbnailurl": "https://static01.nyt.com/images/2016/07/18/business/18db-softbank/18db-softbank-thumbStandard.jpg",
+      "headline": "SoftBank Group Nears Deal to Buy ARM Holdings",
+      "printedition": "New York edition",
+      "copyrightnotice": "© 2016 The New York Times Company",
+      "copyrightyear": "2016"
+     }
+    ]
+   }
+  }
+ ]
+}
