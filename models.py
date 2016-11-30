@@ -1,21 +1,17 @@
 from sqlalchemy import sql, orm
 from app import db
 
-class AnonymousSource(db.Model):
-    __tablename__ = 'anonymoussource'
-    quote = db.Column('SOURCE', db.String(20))
-    link = db.Column('LINK', db.String(20), primary_key=True)
+class BigTable(db.Model):
+    __tablename__ = 'anon'
+    link = db.Column('link', db.Text, primary_key=True)
+    title = db.Column('title', db.Text) 
+    agency = db.Column('agency',db.Text)
+    day  = db.Column('day', db.Integer)
+    month = db.Column('month', db.Integer)
+    year = db.Column('year', db.Integer)
+    phrase = db.Column('phrase',db.Text)
+    section = db.Column('section',db.Text)
+    snip = db.Column('snip',db.Text)
 
-class Date(db.Model):
-    __tablename__ = 'date'
-    date = db.Column('SOURCE', db.String(20))
-    year = db.Column('YEAR', db.String(20))
-    link = db.Column('LINK', db.String(20), primary_key=True)
+    
 
-class Properties(db.Model):
-    __tablename__ = 'properties'
-    Link = db.Column('LINK', db.String(20), primary_key=True)
-    Section = db.Column('SECTION', db.String(20))
-
-
-#Year ==> Section ==> (phrase, count, url)
