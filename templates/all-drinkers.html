@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block heading %}News Organization{% endblock %}
+{% block content %}
+<ul>
+  {% for sec in section%}
+ 	<li> {{sec}} </li>
+  {% endfor %}
+</ul>
+
+<hr/>
+<p>{{section|length}} sec{{section|length|pluralize}}
+  found in the database.</p>
+{% endblock %}
