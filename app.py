@@ -8,16 +8,19 @@ app.secret_key = 's3cr3t'
 app.config.from_object('config')
 db = SQLAlchemy(app, session_options={'autocommit': False})
 
-@app.route('/')
-def year():
-    year = db.session.query(models.Date).all()
-    return render_template('all-drinkers.html', drinkers=drinkers)
 
-@app.route('/year/<name>')
-def phrase(name):
-    drinker = db.session.query(models.anonymoussource)\
-        .filter(models.anonymoussource.name == name).one()
-    return render_template('drinker.html', drinker=drinker)
+@app.route('/')
+def section():
+    #section = db.session.query(models.BigTable.section).all()
+    agency = db.session.query(models.BigTable.agency).all()
+    section = db.session.query(models.BigTable.section).all()
+    #form = forms.DrinkerEditFormFactory.form(agency,section)
+    #return render_template('edit-drinker.html', form = form)
+    return render_template('all-drinkers.html', section = section)
+
+@app.template_filter('pluralize')
+def pluralize(number, singular='', plural='s'):
+    return singular if number in (0, 1) else plural
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
