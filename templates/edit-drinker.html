@@ -4,6 +4,10 @@
 <form action="" method = "POST" name ="request">
   {{form.csrf_token}}
       {{ form.hidden_tag() }}
+      <style = "font-family: verdana">
+          body { color: blue}
+
+      </style>
       <p>
           Begin date:<br>
           {{form.beginDate}}<br>
