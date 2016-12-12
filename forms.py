@@ -1,6 +1,7 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, BooleanField, IntegerField
+from wtforms import StringField, BooleanField, IntegerField, SelectMultipleField, SelectField
 from wtforms.validators import DataRequired
+
 
 class AnonymousFilterForm(FlaskForm):
     beginDay = IntegerField('beginDay',[DataRequired()],default = 1)
@@ -9,3 +10,9 @@ class AnonymousFilterForm(FlaskForm):
     endMonth =  IntegerField('endMonth',[DataRequired()],default = 12)
     beginYear = IntegerField('beginYear',[DataRequired()],default = 2000)
     endYear =  IntegerField('endYear',[DataRequired()],default = 2016)
+    sectionMenu = SelectMultipleField('sectionMenu',choices=[],coerce = int)
+    
+    def __init__(self,sectionQuery):
+        super(AnonymousFilterForm, self).__init__()
+        self.sectionMenu.choices = sectionQuery
+    
