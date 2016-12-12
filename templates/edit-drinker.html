@@ -8,31 +8,35 @@
           body { color: blue}
 
       </style>
-  <p>
+ <p>
       Begin Year:<br>
       {{form.beginYear}}<br>
   </p>
   <p>
-      End Year:<br>
-      {{form.endYear}}<br>
-  </p> 
-    <p>
       Begin Month:<br>
       {{form.beginMonth}}<br>
   </p>
-  <p>
-      End Month:<br>
-      {{form.endMonth}}<br>
-  </p> 
   <p>
       Begin Day:<br>
       {{form.beginDay}}<br>
   </p>
   <p>
+      End Year:<br>
+      {{form.endYear}}<br>
+  </p> 
+  <p>
+      End Month:<br>
+      {{form.endMonth}}<br>
+  </p> 
+  <p>
       End Day:<br>
       {{form.endDay}}<br>
   </p> 
-  <p> Count: {{count}}</p>    
+  <p>
+      Section:<br> 
+      {{form.sectionMenu}}<br>
+  </p>
+  
   <hr/>
   <input type="submit" value="Submit"/>
   {% if 'database' in form.errors %}<p>{{form.errors['database']}}</p>{% endif %}
