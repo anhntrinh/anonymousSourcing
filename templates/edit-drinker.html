@@ -1,15 +1,29 @@
 {% extends 'layout.html' %}
 {% block heading %} Filter Page {% endblock %}
 {% block content %}
+
+<head>
+  <meta charset="utf-8">
+  <title>DatePicker Example</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    $( ".dt" ).datepicker();
+  });
+  </script>
+</head>
+
 <form action="" method = "POST" name ="request">
   {{form.hidden_tag()}}
   <p>
       Begin Date:<br>
-      {{form.beginDate}}<br>
+      {{form.beginDate(class = "dt")}}<br>
   </p>
   <p>
       End Date:<br>
-      {{form.endDate}}<br>
+      {{form.endDate(class = "dt")}}<br>
   </p>
   <p>
       Section:<br> 
