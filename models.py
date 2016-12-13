@@ -12,6 +12,7 @@ class BigTable(db.Model):
     phrase = db.Column('phrase',db.Text)
     section = db.Column('section',db.Text)
     snip = db.Column('snip',db.Text)
+    fulldate = db.Column('fulldate',db.date)
 
     
 
