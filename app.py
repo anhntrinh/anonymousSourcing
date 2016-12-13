@@ -31,14 +31,8 @@ def section():
     secd = dict(sec)
     if form.validate_on_submit():
         print "validated"
-        beginDay = form.beginDay.data
-        endDay = form.endDay.data
-        beginMonth = form.beginMonth.data
-        endMonth = form.endMonth.data
-        beginYear = form.beginYear.data
-        endYear = form.endYear.data
-        beginDate = date(beginYear, beginMonth, beginDay)
-        endDate = date(endYear, endMonth, endDay)
+        beginDate = form.beginDate.data
+        endDate = form.endDate.data
         #choice = dict(sec).get(form.sectionMenu.data)
         sectionChoices = form.sectionMenu.data # list of int 
         # passing variables to the next route 
@@ -67,8 +61,6 @@ def output(begin,end,secs):
 
     beginDate = datetime.strptime(begin, '%Y-%m-%d')
     endDate = datetime.strptime(end, '%Y-%m-%d')
-    beginYear = beginDate.year
-    endYear = endDate.year
     print len(db.session.query(models.BigTable).all())
     entries= db.session.query(models.BigTable).filter(models.BigTable.year >= beginYear, models.BigTable.year <= endYear).all()
     #count = len(db.session.query(models.BigTable).all())#len(entries)
