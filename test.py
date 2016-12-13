@@ -11,7 +11,7 @@ import csv
 
 def getdata():
     # set up URL 
-    YOUR_ID = "&cx=015517377416211146520:fcaw3hscbxq"
+    YOUR_ID = "&cx=015517377416211146520:1odkwbmhzxe"
     #015517377416211146520:moqlkbiryyy (breibart)
     #015517377416211146520:1odkwbmhzxe (nytimes)
     #015517377416211146520:fcaw3hscbxq (fox)
@@ -20,7 +20,7 @@ def getdata():
     google_id = YOUR_ID
     #restrict = "&dateRestrict=m3"
     google_key = YOUR_KEY
-    sitesearch = "&siteSearch=http%3A%2F%2Fwww.foxnews.com%2F"
+    sitesearch = "&siteSearch=http%3A%2F%2Fwww.nytimes.com%2F"
     #http%3A%2F%2Fwww.nytimes.com%2F
     #http%3A%2F%2Fwww.breitbart.com%2F
     #http%3A%2F%2Fwww.foxnews.com%2F
@@ -30,7 +30,7 @@ def getdata():
     # set up csv file 
     anonCSV = open('sample.csv','a') 
     csvwriter = csv.writer(anonCSV)
-    csvwriter.writerow([])
+    #csvwriter.writerow([])
     
     phrases = open("anonymous-phrases.txt")
     
@@ -102,6 +102,14 @@ def getdata():
                 
                 #get date 
                 
+                pd = ""
+                '''
+                try:
+                    pd = item['pagemap']['metatags'][0]['pdate'] # to get pdate in YYYYMMDD form 
+                except: 
+                    print('no date')
+                '''
+                
                 day = ""
                 month = ""
                 year = "" 
@@ -117,7 +125,9 @@ def getdata():
                     year = item['pagemap']['metatags'][0]['pdate'][:4]
                 except: 
                     print('no year')
-                                 
+                
+                pd = year +'-' + month + '-' +day
+                     
                 #get snippet
                 
                 snip = ""
@@ -129,7 +139,7 @@ def getdata():
                       
                 #update csv 
                 try: 
-                    csvwriter.writerow([item['title'],item['link'],item['displayLink'],day,month,year,phrase,articlesection,snip])
+                    csvwriter.writerow([item['title'],item['link'],item['displayLink'],day,month,year,phrase,articlesection,snip,pd])
                     count += 1
                 except:
                     print('csv write error')
