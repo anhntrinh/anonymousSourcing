@@ -2,24 +2,23 @@
 {% block heading %} Filter Page {% endblock %}
 {% block content %}
 <form action="" method = "POST" name ="request">
-  {{form.csrf_token}}
-      {{ form.hidden_tag() }}
-      <style = "font-family: verdana">
-          body { color: blue}
-
-      </style>
- <p>
+  {{form.hidden_tag()}}
+  <p>
       Begin Date:<br>
       {{form.beginDate}}<br>
   </p>
   <p>
       End Date:<br>
       {{form.endDate}}<br>
-  </p> 
-  
+  </p>
   <p>
       Section:<br> 
       {{form.sectionMenu}}<br>
+  </p>
+
+  <p>
+      Graph Scale: <br>
+      {{form.scale}}<br>
   </p>
   
   <hr/>
