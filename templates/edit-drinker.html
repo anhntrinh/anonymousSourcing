@@ -1,10 +1,9 @@
 {% extends 'layout.html' %}
-{% block heading %} Filter Page {% endblock %}
+{% block heading %} Query {% endblock %}
 {% block content %}
 
 <head>
   <meta charset="utf-8">
-  <title>DatePicker Example</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -26,12 +25,12 @@
       {{form.endDate(class = "dt")}}<br>
   </p>
   <p>
-      Section:<br> 
+      Section(s)(Optional):<br> 
       {{form.sectionMenu}}<br>
   </p>
 
   <p>
-      Graph Scale: <br>
+      Count By: <br>
       {{form.scale}}<br>
   </p>
   
