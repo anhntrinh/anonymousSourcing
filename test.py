@@ -11,11 +11,8 @@ import csv
 
 def getdata():
     # set up URL 
-    YOUR_ID = "&cx=015517377416211146520:1odkwbmhzxe"
-    #015517377416211146520:moqlkbiryyy (breibart)
-    #015517377416211146520:1odkwbmhzxe (nytimes)
-    #015517377416211146520:fcaw3hscbxq (fox)
-    YOUR_KEY = "&key=AIzaSyBm6CaISTMkh1adLuSU7VraFgzJrvoUCgA"
+    YOUR_ID = "" # your search engine ID  
+    YOUR_KEY = "" # your API key
     base = 'https://www.googleapis.com/customsearch/v1?q='
     google_id = YOUR_ID
     #restrict = "&dateRestrict=m3"
