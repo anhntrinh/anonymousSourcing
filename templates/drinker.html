@@ -2,7 +2,7 @@
 {% block heading %} Results {% endblock %}
 {% block content %}
 
-<p> <b>{{count}}</b> anonymous sourcing instance{{count|pluralize}} </p>
+<p> <b>{{count}}</b> anonymous sourcing instance{{count|pluralize}} in the selected time period</p>
 <div class="container" align="left">
 	<embed type="image/svg+xml" src={{graph_data|safe}} />
 </div>
