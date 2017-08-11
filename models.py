@@ -1,7 +1,5 @@
 from sqlalchemy import sql, orm
 from app import db
-
-
 class BigTable(db.Model):
     __tablename__ = 'anon'
     title = db.Column('title', db.Text) 
